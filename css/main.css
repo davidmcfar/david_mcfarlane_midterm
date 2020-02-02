@@ -1,0 +1,88 @@
+
+body {
+	font-family: sans-serif;
+}
+
+.hidden {
+	display: none;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1366px;
+	background-color: white;
+}
+
+/*-- Header --*/
+
+.headernav {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: #201d1e;
+	height: 160px;
+}
+.headercolor{
+	background-color: #bb722c;
+	height: 20px;
+}
+
+.logoheader {
+	width: 123px;
+	margin: 10px 0px 20px 20px;
+}
+
+/*-- Close Header --*/
+
+/*-- index --*/
+#ourbeers {
+  height: 200px;
+  background-color: #201d1e;
+}
+
+ #hero {
+  	height: 560px;
+  	background-color: pink;
+  }
+
+#about {
+	height: 208px;
+	background-color: #bb722c; 
+}
+
+#communityfund {
+	height: 590px;
+	background-color: green;
+}
+
+/*--close index --*/
+
+/*-- community --*/
+
+#giveback {
+		height: 490px;
+	background-color: #201d1e;
+}
+
+#promise {
+	height: 610px;
+	background-color: green;
+}
+
+#totalcontribute {
+	height: 180px;
+	background-color: white;
+}
+
+/*--close community --*/
+
+/*--Footer--*/
+.mainfooter {
+  display: flex;
+  flex-direction: row;
+  background-color: #ccc;
+  justify-content: flex-start;
+  height: 260px;
+  background-color: #201d1e;}
+
+/*--close Footer--*/
