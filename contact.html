@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+	<title>Contact</title>
+</head>
+<body>
+	<h1 class="hidden">contact page</h1>
+<div class="container">
+	<header class="headernav">
+		<img src="images/logo.svg" class="logoheader" alt="logo">
+	<nav>
+		<h2 class="hidden">Main Nav</h2>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="beer.html">Beer</a></li>
+			<li><a href="community.html">community</a></li>
+			<li><a href="restaurant.html">Restaurant</a></li>
+			<li><a href="contact.html" class="selected">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+<div class="headercolor"></div>
+	<main>
+		<section id="maincontact">
+			<h2 class="hidden">Main contact form</h2>
+				<form id="contactform" action="form.php" method="post">
+					<label class="contacttext">Name: (required)</label>
+					<input type="text" required size="30" placeholder="enter your name">
+
+					<label class="contacttext">Email: (required)</label>
+					<input type="email" required size="30" placeholder="enter your email">
+
+					<label class="contacttext">Phone: (required)</label>
+					<input type="tel" required size="30" placeholder="enter you phone number">
+
+					<label class="contacttext">Comments:</label>
+					<textarea required cols="50" rows="8" id="comments"></textarea>
+
+					<input type="submit" value="submit" id="submit">
+				</form>				
+		</section>
+		</main>
+	<footer class="mainfooter">
+	<nav>
+		<h2 class="hidden">Footer Nav</h2>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="beer.html">Beer</a></li>
+			<li><a href="community.html">community</a></li>
+			<li><a href="restaurant.html">Restaurant</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<div class="social">
+<img src="images/facebook.svg" class="socialmedia" alt="facebook icon"><img src="images/youtube.svg" class="socialmedia" alt="youtube icon"><img src="images/twitter.svg" class="socialmedia" alt="twitter icon"></div>
+	<!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+</footer>
+<script src="js/main.js"></script>
+</div>
+</body>
+</html>
