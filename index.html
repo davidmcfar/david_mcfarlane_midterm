@@ -3,6 +3,7 @@
 <head>	
 	<meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700Roboto&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
 	<title>Home</title>
 </head>
@@ -10,29 +11,42 @@
 	<h1 class="hidden">Home page</h1>
 <div class="container">
 	<header class="headernav">
+		<img src="images/logo.svg" class="logoheader" alt="logo">
 	<nav>
 		<h2 class="hidden">Main Nav</h2>
 		<ul>
-			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html" class="selected">Home</a></li>
 			<li><a href="beer.html">Beer</a></li>
 			<li><a href="community.html">community</a></li>
 			<li><a href="restaurant.html">Restaurant</a></li>
-			<li><a href="store.html">Store</a></li>
+			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
 </header>
 <div class="headercolor"></div>
 	<main>
-		<div id="hero"></div>
+		<div class="hero heroindex"><h2>CRAFT BEER THAT SATIFIES</h2></div>
 		<h2 class="hidden">about us</h2>
-		<div id="about"></div>
+		<div id="about"><p>Blyth Cowbell Brewing Co. is Canada’s destination craft brewery. Purposeful. Sustainable. Fun. An award winning state-of-the-art brewing facility, restaurant with indoor and outdoor seating, retail store, and entertainment spaces. Cowbell’s accessible, family-friendly restaurant and brewery is located on 120-acres south of the historic village of Blyth, and our commitment is simple and clear - to provide you with a one-of-a-kind Guest experience, highlighted by delicious craft beer, Truly Local food and warm hospitality. Every time.</p></div>
 		<h2 class="hidden">our beers</h2>
-		<div id="ourbeers"></div>
-		<h2 class="hidden">Community fund</h2>
-		<div id="communityfund"></div>
+		<div id="ourbeers"><h2>OUR BEERS SERIES</h2>
+				<H3>FOUNDERS SERIES</H3>
+				<H3>SESSION SERIES</H3>
+				<H3>ANNIVERSARY SERIES</H3>
+		</div>
+		<div id="communityfund">
+                <div class="view view-first">
+			<img src="images/greenfield.jpg" alt="a green field">
+                   <div class="mask">
+                        <h2>our promise</h2>
+                        <p>Cowbell contributes 5¢ from the sale of every pint and can, from the very first can of beer sold in May 2016, to support partners in our communities.</p>
+                    </div>
+                </div>
+			<h2>Community fund</h2>
+			<p>First and foremost, Cowbell is about people. The Greener Pastures Community Fund is Cowbell's initiative to give back to local communities and charitable organizations. Cowbell has been donating 5¢ from the sale of every can and every pint to the Fund, from the very first pint sold in May of 2016. Cowbell is pleased to support remarkable organizations that make a positive impact on the lives of thousands of people each year, from the city to the country. Your support makes this possible - thank you.</p>
+		</div>
 	</main>
-<div class="mainfooter">
-<footer>
+<footer class="mainfooter">
 	<nav>
 		<h2 class="hidden">Footer Nav</h2>
 		<ul>
@@ -40,12 +54,14 @@
 			<li><a href="beer.html">Beer</a></li>
 			<li><a href="community.html">community</a></li>
 			<li><a href="restaurant.html">Restaurant</a></li>
-			<li><a href="store.html">Store</a></li>
+			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
+	<div class="social">
+<img src="images/facebook.svg" class="socialmedia" alt="facebook icon"><img src="images/youtube.svg" class="socialmedia" alt="youtube icon"><img src="images/twitter.svg" class="socialmedia" alt="twitter icon"></div>
+	<!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
 </footer>
-</div>
-<script type="text/javascript" src="js/main.js"></script>
+<script src="js/main.js"></script>
 </div>
 </body>
 </html>
